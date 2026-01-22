@@ -3,23 +3,7 @@ import { loginStudent } from '../services/studentService';
 import { Student } from '../types';
 import { Lock, User, ArrowRight, AlertCircle, Loader2 } from 'lucide-react';
 
-import logo from "./assets/logo.png";
-
-{/*
-const Logo = () => (
-  <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-    {/* Geometric Square Logo */}
-    <rect x="20" y="20" width="360" height="360" fill="none" stroke="black" strokeWidth="18"/>
-    <line x1="20" y1="380" x2="380" y2="20" stroke="black" strokeWidth="18"/>
-    <circle cx="100" cy="140" r="28" fill="none" stroke="black" strokeWidth="18"/>
-    <path d="M170 230 A 60 60 0 0 1 280 120" fill="none" stroke="black" strokeWidth="18" strokeLinecap="round"/>
-    <path d="M290 240 v 90 M 245 285 h 90" fill="none" stroke="black" strokeWidth="18" strokeLinecap="round"/>
-    {/* Text Logo */}
-    <text x="200" y="440" textAnchor="middle" fontSize="56" fontWeight="900" fontFamily="sans-serif" letterSpacing="8">WEEKEND</text>
-    <text x="200" y="495" textAnchor="middle" fontSize="56" fontWeight="900" fontFamily="sans-serif" letterSpacing="8">STUDIO</text>
-  </svg>
-);
-*/}
+import logo from "./components/logo.png";
 
 const Logo = () => {
   return (
