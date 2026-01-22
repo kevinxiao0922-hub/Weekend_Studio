@@ -3,7 +3,7 @@ import { loginStudent } from '../services/studentService';
 import { Student } from '../types';
 import { Lock, User, ArrowRight, AlertCircle, Loader2 } from 'lucide-react';
 
-import logo from "./components/logo.png";
+import logo from "./logo.png";
 
 const Logo = () => {
   return (
