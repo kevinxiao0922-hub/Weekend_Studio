@@ -9,7 +9,7 @@ import {
   Wallet
 } from 'lucide-react';
 
-import logo from "/logo.png";
+import logo from "./logo.png";
 
 const LogoIcon = () => (
   <img
