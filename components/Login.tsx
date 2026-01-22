@@ -3,6 +3,8 @@ import { loginStudent } from '../services/studentService';
 import { Student } from '../types';
 import { Lock, User, ArrowRight, AlertCircle, Loader2 } from 'lucide-react';
 
+import logo from "./assets/logo.png";
+
 const Logo = () => (
   <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
     {/* Geometric Square Logo */}
@@ -16,6 +18,16 @@ const Logo = () => (
     <text x="200" y="495" textAnchor="middle" fontSize="56" fontWeight="900" fontFamily="sans-serif" letterSpacing="8">STUDIO</text>
   </svg>
 );
+
+const Logo = () => {
+  return (
+    <img
+      src={logo}
+      alt="Weekend Studio logo"
+      className="w-full h-full object-contain"
+    />
+  );
+};
 
 interface LoginProps {
   onLogin: (student: Student) => void;
