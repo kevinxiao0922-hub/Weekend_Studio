@@ -9,14 +9,14 @@ import {
   Wallet
 } from 'lucide-react';
 
+import logo from "/logo.png";
+
 const LogoIcon = () => (
-  <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-    <rect x="20" y="20" width="360" height="360" fill="none" stroke="black" strokeWidth="24"/>
-    <line x1="20" y1="380" x2="380" y2="20" stroke="black" strokeWidth="24"/>
-    <circle cx="100" cy="140" r="35" fill="none" stroke="black" strokeWidth="24"/>
-    <path d="M170 230 A 60 60 0 0 1 280 120" fill="none" stroke="black" strokeWidth="24" strokeLinecap="round"/>
-    <path d="M290 240 v 90 M 245 285 h 90" fill="none" stroke="black" strokeWidth="24" strokeLinecap="round"/>
-  </svg>
+  <img
+    src={logo}
+    alt="Logo"
+    className="w-full h-full object-contain"
+  />
 );
 
 interface DashboardProps {
